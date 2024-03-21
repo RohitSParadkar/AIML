@@ -20,7 +20,7 @@ from supervision.tools.detections import Detections, BoxAnnotator
 from supervision.draw.color import ColorPalette
 
 # Load the YOLO model
-# model = YOLO("../../models/best_v8x.pt")
+# model = YOLO("./best.pt")
 
 # Load Model
 from models.common import DetectMultiBackend
